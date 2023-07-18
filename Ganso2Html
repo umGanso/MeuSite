@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div class="container">
+        <h1>Seja bem-vindo</h1>
+        <h1>ao</h1>
+        <p class="titulo"> Gerador de sonhos!</p>
+        <p>Preencha o formulario abaixo para enviar uma solicitação de sonho</p>
+        <form>
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem:</label>
+                <textarea name="message" id="message" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
